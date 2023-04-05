@@ -1,0 +1,6 @@
+---
+- name: Install Kong Gateway
+  hosts: all
+  become: true
+  roles:
+    - kong-gateway
